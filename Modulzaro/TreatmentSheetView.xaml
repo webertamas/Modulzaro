@@ -1,0 +1,24 @@
+﻿<Window x:Class="Modulzaro.TreatmentSheetView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Modulzaro"
+        mc:Ignorable="d"
+        Title="TreatmentSheetView" Height="522.982" Width="471.053">
+    <Grid>
+        <Label Content="Beteg neve:" HorizontalAlignment="Left" Height="33" Margin="22,27,0,0" VerticalAlignment="Top" Width="118"/>
+        <Label Content="Életkor:" HorizontalAlignment="Left" Height="33" Margin="22,65,0,0" VerticalAlignment="Top" Width="118"/>
+        <Label Content="TAJ szám:" HorizontalAlignment="Left" Height="33" Margin="22,103,0,0" VerticalAlignment="Top" Width="118"/>
+        <Label Content="Régebbi kezelések:" HorizontalAlignment="Left" Height="33" Margin="22,147,0,0" VerticalAlignment="Top" Width="164"/>
+        <Label Content="BNO kód:" HorizontalAlignment="Left" Height="33" Margin="22,286,0,0" VerticalAlignment="Top" Width="164"/>
+        <Label Content="Jegyzet:" HorizontalAlignment="Left" Height="33" Margin="22,316,0,0" VerticalAlignment="Top" Width="164"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="33" Margin="145,27,0,0" VerticalAlignment="Top" Width="54"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="33" Margin="145,65,0,0" VerticalAlignment="Top" Width="54"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="33" Margin="145,103,0,0" VerticalAlignment="Top" Width="54"/>
+        <TextBox HorizontalAlignment="Left" Height="102" Margin="22,180,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="403"/>
+        <TextBox HorizontalAlignment="Left" Height="102" Margin="22,354,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="403"/>
+        <ComboBox HorizontalAlignment="Left" Height="24" Margin="145,287,0,0" VerticalAlignment="Top" Width="245"/>
+
+    </Grid>
+</Window>

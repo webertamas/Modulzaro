@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Modulzaro"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="379.678" Width="525">
     <Grid>
-        
+        <ListBox HorizontalAlignment="Left" Height="224" Margin="23,85,0,0" VerticalAlignment="Top" Width="200"
+                 ItemsSource="{Binding PatientList}" SelectedItem="{Binding SelectPatient}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <Label Content="{Binding Name}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+
+
+        </ListBox>
+        <Label Content="Betegek:" HorizontalAlignment="Left" Height="31" Margin="24,26,0,0" VerticalAlignment="Top" Width="107"/>
+        <Button Content="Új beteg" HorizontalAlignment="Left" Height="41" Margin="317,47,0,0" VerticalAlignment="Top" Width="152" Click="NewPatientButton_Click"/>
+        <Button Content="Adatok módosítása" HorizontalAlignment="Left" Height="41" Margin="317,111,0,0" VerticalAlignment="Top" Width="152" Click="EditPatientButton_Click"/>
+        <Button Content="Kezelés" HorizontalAlignment="Left" Height="41" Margin="317,174,0,0" VerticalAlignment="Top" Width="152" Click="TreatmentButton_Click"/>
+        <Button Content="Statisztika" HorizontalAlignment="Left" Height="41" Margin="317,243,0,0" VerticalAlignment="Top" Width="152" Click="StatisticButton_Click"/>
+
     </Grid>
 </Window>
